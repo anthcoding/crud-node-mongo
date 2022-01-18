@@ -1,0 +1,29 @@
+{
+  "name": "crud-express-mongo",
+  "version": "1.0.0",
+  "description": "CRUD",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthcoding/crud-node-mongo.git"
+  },
+  "author": "Anthony",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anthcoding/crud-node-mongo/issues"
+  },
+  "homepage": "https://github.com/anthcoding/crud-node-mongo#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
